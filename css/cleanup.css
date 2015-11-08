@@ -1,1 +1,29 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall .tag-1~#tag-2{
+  display: none;
+}
+
+#wall #tag-2+#tag-3 {
+  display: none;
+}
+
+#wall .parent>#tag-4 {
+  display: none;
+}
+
+#wall .parent #tag-5.slick:first-of-type{
+  display: none;
+}
+
+#wall .parent #tag-7.slick:last-of-type {
+  display:none;
+}
+
+/*haven't solved below here yet*/
+#wall .parent div:last-child #tag-6:first-child {
+  display:none;
+}
