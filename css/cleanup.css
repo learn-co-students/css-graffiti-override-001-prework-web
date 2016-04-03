@@ -1,1 +1,61 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+	display:none;
+}
+
+div#wall #tag-2 {
+	display:none;
+}
+
+body div#wall #tag-3.slick  {
+	display:none;
+}
+
+div#wall #tag-4 {
+	display:none;
+}
+
+
+div#wall div.parent #tag-5.slick {
+	display:none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+	display:none;
+}
+
+body div#wall div.parent div > #tag-7.slick:last-child {
+	display:none;
+}
+/* 
+
+
+div#wall #tag-3.slickw {
+	display:none;
+
+div#wall #tag-2 {
+	display:none;
+}
+
+div#wall #tag-3.slick.parent {
+	display:none;
+}
+
+#wall #tag-4.parent {
+	display:none;
+}
+
+div#wall div.parent #tag-5.slick {
+	display:none;
+}
+
+div#wall div.parent div:last-child div#tag-6.parent {
+	display:none;
+}
+
+body div#wall div.parent div.class > #tag-7.slick {
+	display:none;
+}
+
+*/
