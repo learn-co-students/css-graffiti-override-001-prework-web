@@ -1,1 +1,35 @@
 /* write your override styles here */
+#wall > .tag-1
+{
+  z-index: -1;
+}
+
+#wall > .tag-1 + #tag-2
+{
+  z-index: -1;
+}
+
+#wall > #tag-2 + #tag-3.slick
+{
+  z-index: -1;
+}
+
+#wall > .parent > #tag-4
+{
+  z-index: -1;
+}
+
+#wall > .parent:nth-child(5) > #tag-5.slick
+{
+  z-index: -1;
+}
+
+#wall > .parent:nth-child(6) > :last-child > #tag-6
+{
+  z-index: -1;
+}
+
+#wall > .parent:last-child > :first-child > #tag-7
+{
+  z-index: -1
+}
