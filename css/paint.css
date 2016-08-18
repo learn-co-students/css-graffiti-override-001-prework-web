@@ -30,18 +30,23 @@ body {
   display: block;
 }
 
+/*right side graffiti with cat*/
 #wall #tag-2 {
   background: url(../images/tag-2.png) no-repeat;
   z-index: 6;
   display: block;
-}
+} 
 
+
+/*left gray matter */
 div#wall #tag-3.slick {
   background: url(../images/tag-3.png) no-repeat;
   z-index: 5;
   display: block;
 }
 
+
+/*peace sign*/
 #wall #tag-4 {
   background: url(../images/tag-4.png) no-repeat;
   z-index: 4;
