@@ -7,22 +7,22 @@
   display: none;
 }
 
-#wall #tag-3.slick.wicked {
+#wall > #tag-3.slick.wicked {
   display: none;
 }
 
-#wall .parent #tag-4 {
+#wall .parent > #tag-4 {
   display: none;
 }
 
-div#wall div.parent #tag-5.slick {
+#wall .tag-1 ~ .parent > #tag-5.slick {
   display: none;
 }
 
-body div#wall div.parent div:last-child div#tag-6 {
+#wall .tag-1 ~ .parent > :last-child #tag-6 {
   display: none;
 }
 
-body div#wall div.parent div:first-child > div#tag-7.slick {
+#wall .parent :first-child > #tag-7.slick{
   display: none;
 }
