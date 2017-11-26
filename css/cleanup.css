@@ -1,1 +1,20 @@
-/* write your override styles here */
+
+/* tag-1 ice cream pink */
+#wall .tag-1 {
+  display: none;
+}
+
+/* tag-2 white/pink/blue arrow */
+#wall .tag-1 + #tag-2 {
+	display: none;
+}
+
+/* tag-3 grey text */
+#wall #tag-2 + #tag-3 {
+	display: none;
+}
+
+/* tag-4, 5, 6, 7 */
+#wall .parent {
+	display: none;
+}
