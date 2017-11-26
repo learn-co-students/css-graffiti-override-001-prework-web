@@ -1,15 +1,18 @@
- /* write your override styles here */
+ /* This is how I solved it last night. 
+
+One - I moved this style sheet below or after the paint.css
+Two - I accomplished this without putting div before everything. */
 
 #wall .tag-1 {
   display: none;
 }
 
-#wall div#tag-2 {
+#wall #tag-2 {
   display: none;
 }
 /* div id    class class */
 /* a class of "slick wicked" is really two classes */
-div#wall #tag-3.slick.wicked {
+#wall #tag-3.slick.wicked {
   display: none;
 }
 
@@ -18,17 +21,16 @@ div#wall #tag-3.slick.wicked {
 }
 /* child combiner */
 /* selects the child div of .parent */
-div#wall div.parent #tag-5.slick  {
+#wall .parent > div {
   display: none;
 } 
 
 
 /* I needed to move around the links to the style sheet */
-body div#wall div.parent div:last-child div#tag-6 {
+#wall .parent > div #tag-6 {
   display: none; 
 }
 
-body div#wall div.parent div:first-child > div#tag-7.slick { 
+#wall * { 
   display: none;
 }
-
