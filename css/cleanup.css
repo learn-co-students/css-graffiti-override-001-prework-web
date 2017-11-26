@@ -1,1 +1,43 @@
 /* write your override styles here */
+
+/* Hide Tag 1 */
+
+#wall .tag-1 {
+  display: none;
+}
+
+/* Hide Tag 2 */
+
+div#wall #tag-2 {
+  display: none;
+}
+
+/* Hide Tag 3 */
+
+div#wall #tag-2 + #tag-3 {
+  display: none;
+}
+
+/* Hide Tag 4 */
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/* Hide Tag 5 */
+
+div#wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+/* Hide Tag 6 */
+
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+/* Hide Tag 7 */
+
+html body div#wall div.parent div > #tag-7.slick {
+  display: none;
+}
